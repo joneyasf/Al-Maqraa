@@ -128,7 +128,7 @@ class LiveController extends ChangeNotifier {
     notifyListeners();
   }
 
-  void nextReader() {
+  void advanceTurn() {
     currentReaderIndex = (currentReaderIndex + 1) % members.length;
     notifyListeners();
   }
