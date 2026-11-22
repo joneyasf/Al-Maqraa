@@ -23,8 +23,8 @@ android {
 
     defaultConfig {
         applicationId = "com.liwajhullah.maqraa"
-        // Jitsi Meet يتطلب minSdk 24 على الأقل.
-        minSdk = 24
+        // Jitsi Meet SDK 11.6.0 يتطلب minSdk 26 على الأقل.
+        minSdk = 26
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
