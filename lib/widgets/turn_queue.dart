@@ -55,7 +55,7 @@ class TurnQueue extends StatelessWidget {
                 SizedBox(
                   height: 44,
                   child: OutlinedButton.icon(
-                    onPressed: live.nextReader,
+                    onPressed: live.advanceTurn,
                     icon: const Icon(Icons.skip_next_rounded),
                     label: Text(
                       'انقل الدور للتالي',
